@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>alimingoi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="mainSiteName">
+                <span class="big">BITLAB</span>
+                <span class="small">NEWS</span>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Finance</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mainNews">
+            <img src="./Images/mainNews1.webp" alt="Main News" class="img">
+            <div class="informationMainNews">
+                <h3 class="hInf">Shavkat Rakhmonov vs. Jeff Neal: UFC fight date, time and live stream</h3>
+                <p class="pInf">
+                    Some details of the duel between Kazakh fighter Shavkat Rakhmonov (16-0) and American Jeff Neil (15-4) have become known, Vesti.kz reports.<br> <br>
+                    Their fight will take place on the night of March 4-5 on the main card of the UFC 285 tournament. The event will be held at the T-Mobile Arena in Las Vegas (Nevada, USA).<br><br>
+                    Rakhmonov-Nile fight will start at approximately 09:40 Astana time. The live broadcast will be available on the official UFC website.<br><br>
+                    Recall that the main event of the show will be a fight for the vacant UFC heavyweight title between American Jon Jones and Frenchman Cyril Gan.
+                </p>
+            </div>
+        </div>
+
+        <div class="latestNews">
+            <div class="lNewsH">
+                <button class="np" id="left" onclick="clicked(-1)"><</button>
+                <h2 class="lnh">Latest News</h2>
+                <button class="np" id="right" onclick="clicked(1)">></button>
+            </div>
+            <div class="lnews">
+                <div class="element">
+                    <img src="./Images/napoli.jpg"  class="newImg" id="e1">
+                    <h4 class="h" id="h1">Napoli</h4>
+                    <p class="p" id="p1">Napoli are aiming to become Italian champions for the third time with their last success coming in 1990.</p>
+                    <a href="https://www.bbc.com/sport/football/64844637" target="_blank" id="l1"><button class="readNews">Read More</button></a>
+                </div>
+                <div class="element">
+                    <img src="./Images/SW.jpg"  class="newImg" id="e2">
+                    <h4 class="h" id="h2">Shane Warne</h4>
+                    <p class="p" id="p2">When Shane Warne in 1999, for his first taste of English domestic cricket, it was the biggest signing in the club's history.</p>
+                    <a href="https://www.bbc.com/sport/cricket/64812621" target="_blank" id="l2"><button class="readNews">Read More</button></a>
+                </div>
+                <div class="element">
+                    <img src="./Images/MU.jpg"  class="newImg" id="e3">
+                    <h4 class="h" id="h3">Manchester United:</h4>
+                    <p class="p" id="p3">Nicky Butt says club have overtaken Liverpool on pitch under Erik ten Hag.Butt knew Rashford was destined for stardom</p>
+                    <a href="https://www.bbc.com/sport/football/64824971" target="_blank" id="l3"><button class="readNews">Read More</button></a>
+                </div>
+                <div class="element">
+                    <img src="./Images/B.jpg"  class="newImg" id="e4">
+                    <h4 class="h" id="h4">Ian Roberts:</h4>
+                    <p class="p" id="p4">The double life and singular purpose of a rugby league legend.It was as if Mick Potter had disappeared.</p>
+                    <a href="https://www.bbc.co.uk/sounds/play/p0f6nndh" target="_blank" id="l4"><button class="readNews">Read More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
